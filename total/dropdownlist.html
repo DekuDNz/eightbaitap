@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 35%;
+        height: 250px;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      #label {
+        border: 3px dotted black;
+        padding: 5px;
+      }
+      #members {
+        margin-top: 30px;
+      }
+      #submitBtn {
+        background-color: black;
+        color: white;
+        display: block;
+        width: 20%;
+        margin-top: 100px;
+        padding: 5px;
+      }
+
+      #hello {
+        display: block;
+        margin-top: 10px;
+        border: 2px dotted black;
+        width: 25%;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <label id="label" for="members">Chọn thành viên:</label><br />
+      <select id="members">
+        <option id="selectA" value="selectA">Chọn thành viên</option>
+        <option id="father" value="father">Bố</option>
+        <option id="mother" value="mother">Mẹ</option>
+        <option id="youngboy" value="brother">Em trai</option>
+        <option id="younggirl" value="sister">Em gái</option>
+      </select>
+      <br />
+      <span id="submitBtn">Submit button</span><br />
+    </div>
+    <span id="hello">Xin chào:<span id="result"></span></span>
+
+    <script src="dropdownlist.js"></script>
+  </body>
+</html>
